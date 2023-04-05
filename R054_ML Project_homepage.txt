@@ -1,0 +1,142 @@
+<!DOCTYPE html> 
+<html>		
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+		body
+		{
+			background-image: url("https://thumbs.dreamstime.com/z/robot-hand-dark-background-using-digital-ray-human-heart-holographic-scan-projection-d-rendering-171692028.jpg");
+			background-size: cover; 
+			font-family: Times New Roman, sans-serif;
+			font-size: 16px;
+			line-height: 1.75;
+			color: #000000;
+			margin: 0;
+			padding: 0;
+		}
+		header 
+		{
+            background-color: #0077be;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        h1 
+        {
+            font-size: 32px;
+            font-weight: bold;
+            margin: 0;
+            justify-content: center;
+            align-items: center;
+        }
+        h2
+        {
+            font-size: 32px;
+            font-weight: bold;
+            margin: 0;
+        }
+        nav ul 
+        {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav li 
+        {
+            margin: 0 10px;
+        }
+        nav a 
+        {
+            color: #000000;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.2s ease-in-out;
+        }
+        nav a:hover 
+        {
+            color: #f00;
+        }
+        main 
+        {
+            margin-top: 80px;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        section 
+        {
+            flex-basis: calc(50% - 20px);
+            background-color: #daf0ff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: box-shadow 0.2s ease-in-out;
+        }
+        section:hover 
+        {
+            box-shadow: 0 4px 8px rgba(0, 0, 0.2, 0.2);
+        }
+        h2 
+        {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0 0 10px;
+        }
+        p 
+        {
+            margin: 0 0 10px;
+            
+        }
+        .footer 
+        {
+                background-color: #F1F1F1;
+                text-align: center;
+                padding: 10px;
+        }
+        a 
+        {
+            display: inline-block;
+            background-color: #ffefcb;
+            color: #ffefcb;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+ </style>
+<head>
+	<title>Heart Failure Prediction</title>
+</head>
+
+<body>
+	<header>
+        <h1>Heart Failure Prediction</h1>
+		
+		<nav>
+			<ul>
+				<li><a href="original.html">Start Now</a></li>
+				<li>About</li>
+				<li>Contact</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h1>How It Works</h1>
+            <h2>Stay ahead of a stroke with our predictive care.</h2>
+			<p>Our extensively trained model will take multiple inputs from you like Age, Sex, Blood Pressure and so an and will let you know if you are at risk of heart failure.</p>
+			<p> Don't you worry,you are in safe hands.</p>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; Archisha Sinha </p>
+	</footer>
+</body>
+</html>
